@@ -22,6 +22,9 @@ Deprecated and removed features, and other changes affecting compatibility:
   but always fails with ENOSYS.  This reflects the removal of the system
   call from all architectures, starting with Linux 5.5.
 
+* The function getdirentries is now deprecated, applications should use
+  either getdents or POSIX readdir instead.
+
 Changes to build and runtime requirements:
 
   [Add changes to build and runtime requirements here]
